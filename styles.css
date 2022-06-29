@@ -2,9 +2,8 @@
 /* Need to use Margin & Padding to style elements visually pleasing manner*/
 
 body {
-    max-width: 1280px;
     display: block;
-    margin: 8px, 8px, 8px, 8px;
+    margin: 8px;
     font-family:Arial, Helvetica, sans-serif;
     background-color: #e6e6e6;
     letter-spacing: .2em;
@@ -48,7 +47,7 @@ h2 {
 #italyPic,
 #costaRicaPic {
     float: right;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
 }
 #costaRicaPic {
     padding-top: 180px;
@@ -56,7 +55,7 @@ h2 {
 #scotlandPic {
     float: left;
     padding-top: 180px;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
 }
 footer {
 
@@ -64,14 +63,3 @@ footer {
     font-size:smaller;
     
 }
-/* Need to use one of each selectors: element, class, id
-ELEMENT - to give the BODY element a margin value of 8px and a display type of block
-
-Give a heading on page the id of mainHeading and use the id selector in styles.css to 
-give it a color value of red.
-
-Give paragraph on page the id of testP and a class name of funParagraph. Use class selector
-in styles.css to give it a color value of green.
-
-Make sure to link the stylesheet to your main document to see any visible change! */
-
